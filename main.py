@@ -25,3 +25,10 @@ choice = input()
 if choice == '1':
   train(my_agent, 3000)
   save(my_agent, 'MyAgent_3000')
+
+if choice == '2':
+  train(my_agent, 3000)
+  save(my_agent, 'MyAgent_3000')
+  my_agent = load('MyAgent_3000')
+  my_agent.learning = False
+  start(player_x=my_agent)
