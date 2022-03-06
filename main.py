@@ -32,3 +32,5 @@ if choice == '2':
   my_agent = load('MyAgent_3000')
   my_agent.learning = False
   start(player_x=my_agent)
+if choice == '3':
+  start()
