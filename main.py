@@ -41,3 +41,5 @@ if choice == '4':
     iterations=10000,
     trainings=100,
     validations=1000)
+if choice == '5':
+  print("Een hyperparameter is een parameter waarvan de waarde wordt gebruikt om het leerproces te beheersen. Een parameter is een grenswaarde. Bij hyperparameters kun je deze grenswaardes aanpassen, met een minimumwaarde van 0 en een maximumwaarde van 1. Hyperparameters hebben vaak namen van het griekse alfabet. De twee hyperparameters die hier werden gebruikt, zijn alpha en epsilon. De alpha is de leerfactor van de computer. Deze bepaalt hoe snel de agent over nieuwe kennis beheerst. Hoe hoger het getal is, des te sneller zal de agent oude kennis vervangen door nieuwe kennis. De epsilon is de verkenningsfactor van de computer. Deze bepaalt hoe vaak de computer nieuwe dingen zal proberen. Hoe hoger dit getal is, des te vaker zal de computer een willekeurige actie proberen in plaats van de best bekende zet. Door deze twee parameters telkens te veranderen, zal duidelijk worden hoe 'slim' de agent is.")
