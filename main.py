@@ -19,3 +19,9 @@ random.seed(1)
 my_agent = MyAgent()
 
 print("Kies uit 1 van de volgende opties: \n 1. train een agent \n 2. speel tegen een getrainde agent \n 3. speel tegen een ander persoon \n 4. plot een validatie grafiek")
+
+choice = input()
+
+if choice == '1':
+  train(my_agent, 3000)
+  save(my_agent, 'MyAgent_3000')
