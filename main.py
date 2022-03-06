@@ -18,7 +18,7 @@ random.seed(1)
 my_agent = MyAgent(alpha=0.02, epsilon=0.3)
 random_agent = RandomAgent()
 
-print("Kies uit 1 van de volgende opties: \n 1. train een agent \n 2. speel tegen een getrainde agent \n 3. speel tegen een ander persoon \n 4. plot een validatie grafiek")
+print("Kies uit 1 van de volgende opties: \n 1. train een agent \n 2. speel tegen een getrainde agent \n 3. speel tegen een ander persoon \n 4. plot een validatie grafiek \n 5. uitleg over hyperparameters")
 
 choice = input()
 
